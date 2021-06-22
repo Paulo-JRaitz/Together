@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,7 +14,8 @@
     "API"
   ],
   "author": {
-    "name": "Paulo-JRaitz",
+    "name": "Paulo de Jesus Raitz",
+    "github": "github.com/Paulo-JRaitz",
     "email": "paulo.jraitz@gmail.com"
   },
   "license": "MIT",
